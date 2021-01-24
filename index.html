@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stream power</title>
+    <link rel="stylesheet" href="./fonts/Roboto/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/Cambria/stylesheet.css">
+    <link rel="stylesheet" href="./vendor/slick/slick-theme.css">
+    <link rel="stylesheet" href="./vendor/slick/slick.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header>
+    <div class="top-header">
+        <div class="wrapper">
+            <div class="d-flex space-between flex-align-items-center">
+            <div class="navbar mobile_menu">
+                <svg class="svg-inline--fa fa-bars fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg><!-- <i class="fas fa-bars"></i> -->
+            </div>
+            <ul class="nav-top d-flex">
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Личный кабинет</a></li>
+            </ul>
+            <div class="right-block d-flex flex-align-items-center">
+                <div class="contact">
+                    <a class="phone" href="tel:8(499)350-80-05">8(499)350-80-05</a>
+                    <a class="email" href="mailto:shop@stp.ru">shop@stp.ru</a>
+                </div>
+                <a href="#" class="button callback shadow">ОБРАТНЫЙ ЗВОНОК</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="bottom-header">
+        <div class="wrapper">
+            <div class="d-flex space-between flex-align-items-center">
+                <div class="left-block d-flex flex-align-items-center">
+                    <div class="logo">
+                        <img  src="./img/logo.png" alt="">
+                    </div>
+                    <div class="search-block">
+                    <form action="" class="d-flex">
+                        <input type="text" name="q">
+                        <input type="submit" value="Найти">
+                    </form>
+                </div>
+                </div>
+                <div class="right-block">
+                    <a href="" class="cmp"><span>Сравнить</span></a>
+                    <a href="" class="favorite"><span>Избранное</span> <sup class="ctn">1</sup></a>
+                    <a href="" class="basket"><span>Корзина</span> <sup class="ctn">1</sup></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile_menu_container">
+        <div class="mobile_menu_content">
+            <ul>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Личный кабинет</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mobile_menu_overlay"></div>
+</header>
+<main>
+    <section class="slider-block">
+        <div class="slider-list">
+            <div class="slider-item" style="background-image: url('./img/header.png')">
+                <div class="body-block">
+                    <div class="title">инвентарь</div>
+                    <div class="desc">для сада и огорода</div>
+                    <div class="btn-block">
+                        <a href="#" class="btn">посмотреть каталог</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item" style="background-image: url('./img/header.png')">
+                <div class="body-block">
+                    <div class="title">инвентарь</div>
+                    <div class="desc">для сада и огорода</div>
+                    <div class="btn-block">
+                        <a href="#" class="btn">посмотреть каталог</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-cards popular">
+        <div class="wrapper">
+            <h2>ПОПУЛЯРНЫЕ КАТЕГОРИИ</h2>
+            <div class="products-list list-1">
+                <div class="product-item">
+                    <div class="img">
+                        <img src="./img/popular-item-1.png" alt="">
+                    </div>
+                    <div class="name">
+                        <a href="#">Камеры COMMAX</a>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img">
+                        <img src="./img/popular-item-2.png" alt="">
+                    </div>
+                    <div class="name">
+                        <a href="#">Корм для кошек</a>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img">
+                        <img src="./img/popular-item-3.png" alt="">
+                    </div>
+                    <div class="name">
+                        <a href="#">Корм для кошек</a>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img">
+                        <img src="./img/popular-item-4.png" alt="">
+                    </div>
+                    <div class="name">
+                        <a href="#">Автоматизация теплиц</a>
+                    </div>
+                </div>
+                <div class="product-item">
+                <div class="img">
+                    <img src="./img/popular-item-5.png" alt="">
+                </div>
+                <div class="name">
+                    <a href="#">Спортивный инвентарь</a>
+                </div>
+            </div>
+                <div class="product-item">
+                    <div class="img">
+                        <img src="./img/popular-item-1.png" alt="">
+                    </div>
+                    <div class="name">
+                        <a href="#">Камеры COMMAX</a>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img">
+                        <img src="./img/popular-item-2.png" alt="">
+                    </div>
+                    <div class="name">
+                        <a href="#">Корм для кошек</a>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img">
+                        <img src="./img/popular-item-3.png" alt="">
+                    </div>
+                    <div class="name">
+                        <a href="#">Корм для кошек</a>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img">
+                        <img src="./img/popular-item-4.png" alt="">
+                    </div>
+                    <div class="name">
+                        <a href="#">Автоматизация теплиц</a>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img">
+                        <img src="./img/popular-item-5.png" alt="">
+                    </div>
+                    <div class="name">
+                        <a href="#">Спортивный инвентарь</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-block">
+                <span class="status-slide"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-cards hit">
+        <div class="wrapper">
+            <h2>ХИТЫ ПРОДАЖ</h2>
+            <div class="products-list  list-2">
+                <div class="product-item">
+                    <a href="" class="favorite-btn"></a>
+                    <div class="top-block">
+                        <div class="top">
+                            <label class="plashka-hit">Хит</label>
+                            <div class="product-name">Фильтр Аквафор
+                                Кристалл Эко Н</div>
+                            <div class="img">
+                                <img src="./img/hit-item-1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-block">
+                        <div class="desc">
+                            Кран для чистой воды<br>
+                            Производительность 2.5 л/мин<br>
+                            Ресурс картриджа очистки воды<br>
+                            8000 л
+                        </div>
+                        <div class="bottom">
+                            <div class="price">7 490 р</div>
+                            <div class="btn"><a href="" class="buy">Купить</a></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <a href="" class="favorite-btn"></a>
+                    <div class="top-block">
+                        <div class="top">
+                        <label class="plashka-hit">Хит</label>
+                        <div class="product-name">ЭЛЕКТРИЧЕСКАЯ ПЕЧЬ
+                            SAWO MINI DRAGON MN</div>
+                        <div class="img">
+                            <img src="./img/hit-item-2.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="bottom-block">
+                        <div class="desc">
+                            Встроенный пульт в комплекте<br>
+                            Нержавейка
+                        </div>
+                        <div class="bottom">
+                        <div class="price">28 290 р</div>
+                        <div class="btn"><a href="" class="buy">Купить</a></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <a href="" class="favorite-btn"></a>
+                    <div class="top-block">
+                        <div class="top">
+                        <label class="plashka-hit">Хит</label>
+                        <div class="product-name">септик ТОПАС-5 Long Пр</div>
+                        <div class="img">
+                            <img src="./img/hit-item-3.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="bottom-block">
+                        <div class="desc">
+                            Проживание: до 5 человек<br>
+                            Залповый сброс: 220 л<br>
+                            Переработка: до 1 м3/сутки
+                        </div>
+                        <div class="bottom">
+                        <div class="price">138 510  р</div>
+                        <div class="btn"><a href="" class="buy">Купить</a></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <a href="" class="favorite-btn"></a>
+                    <div class="top-block">
+                        <div class="top">
+                        <label class="plashka-hit">Хит</label>
+                        <div class="product-name">ЭЛЕКТРИЧЕСКАЯ ПЕЧЬ
+                            SAWO CUMULUS CML80</div>
+                        <div class="img">
+                            <img src="./img/hit-item-4.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="bottom-block">
+                        <div class="desc">
+                            Встроенный пульт в комплекте<br>
+                            Внутри оцинковка<br>
+                            Облицовка талькохлорит
+                        </div>
+                        <div class="bottom">
+                        <div class="price">36 690  р</div>
+                        <div class="btn"><a href="" class="buy">Купить</a></div>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <a href="" class="favorite-btn"></a>
+                    <div class="top-block">
+                        <div class="top">
+                        <label class="plashka-hit">Хит</label>
+                        <div class="product-name">Фильтр для очистки
+                            воды Аквафор Модерн</div>
+                        <div class="img">
+                            <img src="./img/hit-item-1.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="bottom-block">
+                        <div class="desc">
+                            Производительность 1 л/мин<br>
+                            Ресурс картриджа очистки воды<br>
+                            4000 л
+                        </div>
+                        <div class="bottom">
+                        <div class="price">990 р</div>
+                        <div class="btn"><a href="" class="buy">Купить</a></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <a href="" class="favorite-btn"></a>
+                    <div class="top-block">
+                        <div class="top">
+                            <label class="plashka-hit">Хит</label>
+                            <div class="product-name">Фильтр для очистки
+                                воды Аквафор Модерн</div>
+                            <div class="img">
+                                <img src="./img/hit-item-1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-block">
+                        <div class="desc">
+                            Производительность 1 л/мин<br>
+                            Ресурс картриджа очистки воды<br>
+                            4000 л
+                        </div>
+                        <div class="bottom">
+                            <div class="price">990 р</div>
+                            <div class="btn"><a href="" class="buy">Купить</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-block">
+                <span class="status-slide"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="plus white-bg">
+        <div class="wrapper">
+            <h2>5 ПРИЧИН СТАТЬ НАШИМ КЛИЕНТОМ</h2>
+            <div class="content-block">
+                <div class="list">
+                <ul>
+                    <li><span class="color-black">Собственное</span> производство<br><span class="gray">гарантия качества</span></li>
+                    <li><span class="color-black">Монтаж</span> продукции<br><span class="gray">высокий сервис для каждого клиента</span></li>
+                    <li>Отправка товара <span class="color-black">в течение 24 часов</span><br>
+                        <span class="gray">со склада в Москве</span></li>
+                    <li><span class="color-black">Широкий ассортимент</span> товаров.<br>
+                        <span class="gray">Уже в наличии на складе в Москве</span></li>
+                    <li><span class="color-black">10 лет</span> успешной работы<br>
+                        <span class="gray">максимальная компетентность к клиентам</span>
+                    </li>
+                </ul>
+            </div>
+                <div class="img">
+                    <img src="./img/plus-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-cards new-year">
+        <div class="wrapper">
+            <h2>НОВОГОДНИЕ АКЦИИ</h2>
+            <div class="products-list  list-3">
+                <div class="product-item type-1">
+                    <div class="text-block">
+                        <span class="main">30%</span>
+                        <div class="text">на рационы для собак</div>
+                    </div>
+                    <div class="img">
+                        <img src="./img/new-year-item-1.png" alt="">
+                    </div>
+                    <div class="name">
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="product-item type-2">
+                    <div class="text-block">
+                        <div class="main">УСПЕЙ купить</div>
+                        <div class="text">товары для огорода<br>
+                            о выгодной цене!</div>
+                    </div>
+                    <div class="img">
+                        <img src="./img/new-year-item-2.png" alt="">
+                    </div>
+                    <div class="name">
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="product-item type-3">
+                    <div class="text-block">
+                        <span class="main">20%</span>
+                        <div class="text">на фильтры для воды</div>
+                    </div>
+                    <div class="img">
+                        <img src="./img/new-year-item-3.png" alt="">
+                    </div>
+                    <div class="name">
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="product-item type-4">
+                    <div class="text-block">
+                        <span class="main">марафон</span>
+                        <div class="text">предновогодних скидок</div>
+                    </div>
+                    <div class="img">
+                        <img src="./img/new-year-item-4.png" alt="">
+                        <div class="text-2">на товары из раздела котельные!</div>
+                    </div>
+
+                    <div class="name">
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="product-item type-1">
+                    <div class="text-block">
+                        <span class="main">30%</span>
+                        <div class="text">на рационы для собак</div>
+                    </div>
+                    <div class="img">
+                        <img src="./img/new-year-item-1.png" alt="">
+                    </div>
+                    <div class="name">
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-block">
+                <span class="status-slide"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-cards today">
+        <div class="wrapper">
+            <h2>только сегодня</h2>
+            <div class="products-list  list-4">
+                <div class="product-item">
+                    <a href="" class="favorite-btn"></a>
+                    <div class="top-block">
+                        <div class="top">
+
+                            <div class="product-name">Фильтр Аквафор
+                                Кристалл Эко Н</div>
+                            <div class="img">
+                                <img src="./img/hit-item-1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-block">
+                        <div class="desc">
+                            Кран для чистой воды<br>
+                            Производительность 2.5 л/мин<br>
+                            Ресурс картриджа очистки воды<br>
+                            8000 л
+                        </div>
+                        <div class="bottom">
+                            <div class="price">
+                                <div class="new-price">7 490 р</div>
+                                <div class="old-price">2 490 р</div>
+                            </div>
+                            <div class="btn"><a href="" class="buy">Купить</a></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <a href="" class="favorite-btn"></a>
+                    <div class="top-block">
+                        <div class="top">
+
+                            <div class="product-name">ЭЛЕКТРИЧЕСКАЯ ПЕЧЬ
+                                SAWO MINI DRAGON MN</div>
+                            <div class="img">
+                                <img src="./img/hit-item-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-block">
+                        <div class="desc">
+                            Встроенный пульт в комплекте<br>
+                            Нержавейка
+                        </div>
+                        <div class="bottom">
+                            <div class="price">
+                                <div class="new-price">7 490 р</div>
+                                <div class="old-price">2 490 р</div>
+                            </div>
+                            <div class="btn"><a href="" class="buy">Купить</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <a href="" class="favorite-btn"></a>
+                    <div class="top-block">
+                        <div class="top">
+
+                            <div class="product-name">септик ТОПАС-5 Long Пр</div>
+                            <div class="img">
+                                <img src="./img/hit-item-3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-block">
+                        <div class="desc">
+                            Проживание: до 5 человек<br>
+                            Залповый сброс: 220 л<br>
+                            Переработка: до 1 м3/сутки
+                        </div>
+                        <div class="bottom">
+                            <div class="price">
+                                <div class="new-price">7 490 р</div>
+                                <div class="old-price">2 490 р</div>
+                            </div>
+                            <div class="btn"><a href="" class="buy">Купить</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <a href="" class="favorite-btn"></a>
+                    <div class="top-block">
+                        <div class="top">
+
+                            <div class="product-name">ЭЛЕКТРИЧЕСКАЯ ПЕЧЬ
+                                SAWO CUMULUS CML80</div>
+                            <div class="img">
+                                <img src="./img/hit-item-4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-block">
+                        <div class="desc">
+                            Встроенный пульт в комплекте<br>
+                            Внутри оцинковка<br>
+                            Облицовка талькохлорит
+                        </div>
+                        <div class="bottom">
+                            <div class="price">
+                                <div class="new-price">7 490 р</div>
+                                <div class="old-price">2 490 р</div>
+                            </div>
+                            <div class="btn"><a href="" class="buy">Купить</a></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <a href="" class="favorite-btn"></a>
+                    <div class="top-block">
+                        <div class="top">
+                            <div class="product-name">Фильтр для очистки
+                                воды Аквафор Модерн</div>
+                            <div class="img">
+                                <img src="./img/hit-item-1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-block">
+                        <div class="desc">
+                            Производительность 1 л/мин<br>
+                            Ресурс картриджа очистки воды<br>
+                            4000 л
+                        </div>
+                        <div class="bottom">
+                            <div class="price">
+                                <div class="new-price">7 490 р</div>
+                                <div class="old-price">2 490 р</div>
+                            </div>
+                            <div class="btn"><a href="" class="buy">Купить</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <a href="" class="favorite-btn"></a>
+                    <div class="top-block">
+                        <div class="top">
+                            <div class="product-name">Фильтр для очистки
+                                воды Аквафор Модерн</div>
+                            <div class="img">
+                                <img src="./img/hit-item-1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-block">
+                        <div class="desc">
+                            Производительность 1 л/мин<br>
+                            Ресурс картриджа очистки воды<br>
+                            4000 л
+                        </div>
+                        <div class="bottom">
+                            <div class="price">
+                                <div class="new-price">7 490 р</div>
+                                <div class="old-price">2 490 р</div>
+                            </div>
+                            <div class="btn"><a href="" class="buy">Купить</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-block">
+                <span class="status-slide"></span>
+            </div>
+        </div>
+    </section>
+    `
+    <section class="service">
+        <div class="wrapper">
+        <h3>ПОЛНОЕ ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ С ВЫЕЗДОМ НА ОБЪЕКТ</h3>
+        <div class="content">
+            <div class="list">
+                <ul>
+                    <li>Обслуживание септиков</li>
+                    <li>Обслуживание охранной системы</li>
+                    <li>Обслуживание бассейнов</li>
+                    <li>Обслуживание водоочистки</li>
+                    <li>Обслуживание котлов</li>
+                    <li>Обслуживание прудов</li>
+                </ul>
+            </div>
+            <div class="pic"><img src="./img/service-bg.png" alt=""></div>
+        </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="wrapper">
+        <div class="block block-1">
+            <ul>
+                <li><a href="">О компании</a></li>
+                <li><a href="">Реквизиты</a></li>
+                <li><a href="">Вакансии</a></li>
+                <li><a href="">Торговые марки</a></li>
+            </ul>
+        </div>
+        <div class="block block-2">
+            <ul>
+                <li><a href="">Сезонные акции</a></li>
+                <li><a href="">Пользовательское соглашение</a></li>
+                <li><a href="">Условия возврата</a></li>
+                <li><a href="">Доставка / Оплата</a></li>
+            </ul>
+        </div>
+        <div class="block block-3">
+            <ul>
+                <li><a href="">Личный кабинет</a></li>
+                <li><a href="">История заказов</a></li>
+                <li><a href="">Закладки</a></li>
+            </ul>
+        </div>
+        <div class="block block-4">
+            <div class="form">
+                <form action="">
+                    <label>Подпишись на рассылку</label>
+                    <input type="text" placeholder="Введите свой e-mail">
+                </form>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a href="" class="vk"></a></li>
+                    <li><a href="" class="fb"></a></li>
+                    <li><a href="" class="insta"></a></li>
+                    <li><a href="" class="whatsapp"></a></li>
+                    <li><a href="" class="ok"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="block block-5">
+            Адрес: 142150, город Москва,<br>
+            поселение Краснопахорское,<br>
+            село Красная Пахра,<br>
+            Калужское шоссе, дом 78а<br>
+            Тел.: +7 (499) 350-80-05<br>
+            Email: shop@stp.ru<br>
+            пн-сб: с 9.00-20.00
+        </div>
+    </div>
+</footer>
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./vendor/slick/slick.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
