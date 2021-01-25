@@ -98,33 +98,60 @@
     <section class="detail__page">
         <div class="wrapper">
             <div class="left-block">
-                <div class="slick__trumbs">
-                    <ul>
-                        <li><img src="./img/detail-slider.png" alt=""></li>
-                        <li><img src="./img/detail-slider.png" alt=""></li>
-                        <li><img src="./img/detail-slider.png" alt=""></li>
-                        <li><img src="./img/detail-slider.png" alt=""></li>
-                    </ul>
-                </div>
-                <div class="slick__main">
-                    <ul>
-                        <li><img src="./img/detail-slider.png" alt=""></li>
-                        <li><img src="./img/detail-slider.png" alt=""></li>
-                        <li><img src="./img/detail-slider.png" alt=""></li>
-                        <li><img src="./img/detail-slider.png" alt=""></li>
-                    </ul>
+                <div class="vehicle-detail-banner banner-content clearfix">
+                    <div class="banner-slider">
+                        <div class="slider slider-nav thumb-image">
+                            <div class="thumbnail-image">
+                                <div class="thumbImg">
+                                    <img src="./img/detail-slider.png" alt="slider-img">
+                                </div>
+                            </div>
+                            <div class="thumbnail-image">
+                                <div class="thumbImg">
+                                    <img src="./img/popular-item-5.png" alt="slider-img">
+                                </div>
+                            </div>
+                            <div class="thumbnail-image">
+                                <div class="thumbImg">
+                                    <img src="./img/detail-slider.png" alt="slider-img">
+                                </div>
+                            </div>
+                            <div class="thumbnail-image">
+                                <div class="thumbImg">
+                                    <img src="./img/detail-slider.png" alt="slider-img">
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="slider slider-for">
+                            <div class="slider-banner-image">
+                                <img src="./img/detail-slider.png">
+                            </div>
+                            <div class="slider-banner-image">
+                                <img src="./img/popular-item-5.png">
+                            </div>
+                            <div class="slider-banner-image">
+                                <img src="./img/detail-slider.png">
+                            </div>
+                            <div class="slider-banner-image">
+                                <img src="./img/detail-slider.png">
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="right-block">
                 <div class="name">Септик ТОПАС 5 </div>
                 <div class="prop_name">Габаритные размеры:</div>
-                <div class="prop_value">Длина: <span>1,08 м</span> | Ширина: <span>1,17 м</span> | Высота: <span>2,6 м</span> | Вес: <span>295 кг</span></div>
+                <div class="prop_value color">Длина: <span>1,08 м</span> | Ширина: <span>1,17 м</span> | Высота: <span>2,6 м</span> | Вес: <span>295 кг</span></div>
                 <div class="prop_value">Производитель: <span class="underline">Топол-Эко</span></div>
                 <div class="prop_value">Наличие: <span class="underline">Есть в наличии</span></div>
                 <div class="price__block">
                     <div class="count__block">
                         <button class="plus">+</button>
-                        <input type="text">
+                        <input type="text" value="1">
                         <button class="minus">-</button>
                     </div>
                     <div class="price">107 910 Р</div>
@@ -146,7 +173,7 @@
             </div>
             <div class="property__block">
                 <ul class="tabs">
-                    <li><a href="">О товаре</a></li>
+                    <li class="active"><a href="">О товаре</a></li>
                     <li><a href="">Характеристкики</a></li>
                     <li><a href="">Доставка/Самовывоз</a></li>
                     <li><a href="">Отзывы</a></li>
@@ -163,6 +190,23 @@
                         Очень простые в процессе монтажа. На протяжении всего срока эксплуатации, очистные станции Топас 5 Пр очень качественно (до 98 %) очищают хозяйственно-бытовые жидкие стоки до
                         требуемых норм соответствующих СанПиНов. Станция монтируется в любой тип грунтов, даже с максимально высоким уровнем грунтовых вод. Принцип работы установки основан на
                             аэрационной технологии очистки жидких стоков. Эти станции рассчитаны на 50-ти летнюю эксплуатацию, без сбоев и при неизменном качестве очистки стоков.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-block">
+                <h2>СПОСОБЫ ОТВОДА ВОДЫ</h2>
+                <div class="img-block">
+                    <div class="item">
+                        <img src="./img/detail-bottom-1.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/detail-bottom-2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/detail-bottom-3.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/detail-bottom-3.png" alt="">
                     </div>
                 </div>
             </div>
@@ -482,10 +526,45 @@
             </div>
         </div>
     </section>
+    <section class="detail-form">
+        <div class="wrapper">
+            <div class="form-block">
+                <div class="img">
+                    <img src="./img/rabochij.png" alt="">
+                </div>
+                <div class="form-container">
+                    <div class="form">
+                        <h3>РАСЧЕТ СТОИМОСТИ</h3>
+                        <p>ВВЕДИТЕ СВОИ ДАННЫЕ И В ТЕЧЕНИЕ 10 МИНУТ МЫ РАССЧИТАЕМ ТОЧНУЮ СТОИМОСТЬ С УЧЕТОМ ДОСТАВКИ</p>
+                        <form action="">
+                        <div class="item">
+                            <input type="text" placeholder="Колличество пользователей">
+                        </div>
+                        <div class="item">
+                            <input type="text" placeholder="Населенный пункт">
+                        </div>
+                        <div class="item">
+                            <input type="text" placeholder="Вариант монтажа">
+                        </div>
+                        <div class="item">
+                            <input type="text" placeholder="Ваше имя">
+                        </div>
+                        <div class="item">
+                            <input type="text" placeholder="Номер телефона">
+                        </div>
+                        <div class="item">
+                            <input type="submit" value="Получить расчет">
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 <footer>
     <div class="wrapper">
-        <div class="block-1">
+        <div class="block block-1">
             <ul>
                 <li><a href="">О компании</a></li>
                 <li><a href="">Реквизиты</a></li>
@@ -493,7 +572,7 @@
                 <li><a href="">Торговые марки</a></li>
             </ul>
         </div>
-        <div class="block-2">
+        <div class="block block-2">
             <ul>
                 <li><a href="">Сезонные акции</a></li>
                 <li><a href="">Пользовательское соглашение</a></li>
@@ -501,14 +580,14 @@
                 <li><a href="">Доставка / Оплата</a></li>
             </ul>
         </div>
-        <div class="block-3">
+        <div class="block block-3">
             <ul>
                 <li><a href="">Личный кабинет</a></li>
                 <li><a href="">История заказов</a></li>
                 <li><a href="">Закладки</a></li>
             </ul>
         </div>
-        <div class="block-4">
+        <div class="block block-4">
             <div class="form">
                 <form action="">
                     <label>Подпишись на рассылку</label>
@@ -525,7 +604,7 @@
                 </ul>
             </div>
         </div>
-        <div class="block-5">
+        <div class="block block-5">
             Адрес: 142150, город Москва,<br>
             поселение Краснопахорское,<br>
             село Красная Пахра,<br>

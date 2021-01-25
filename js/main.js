@@ -77,22 +77,47 @@ function initCarousel(name){
         ]
     });
 }
-$('.slick__main ul').slick({
-    arrows: true,
-    asNavFor: '.slick__trumbs ul',
-    dots: false,
-    infinite: true,
-    slidesToScroll: 1,
+$('.slider-for').slick({
     slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav'
 });
-
-$('.slick__trumbs ul').slick({
-    arrows: true,
-    asNavFor: '.slick__main ul',
+$('.slider-nav').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    vertical:true,
+    asNavFor: '.slider-for',
     dots: false,
     focusOnSelect: true,
-    infinite: true,
-    slidesToScroll: 1,
-    slidesToShow: 3,
-    vertical: true
+    verticalSwiping:true,
+    responsive: [
+        {
+            breakpoint: 992,
+            settings: {
+                vertical: false,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                vertical: false,
+            }
+        },
+        {
+            breakpoint: 580,
+            settings: {
+                vertical: false,
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 380,
+            settings: {
+                vertical: false,
+                slidesToShow: 2,
+            }
+        }
+    ]
 });
